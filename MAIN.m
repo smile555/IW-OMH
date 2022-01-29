@@ -18,4 +18,4 @@ OURparam=train_param;
 OURparam.alpha= 100;
 OURparam.theta = 1;
 OURparam.delta = 1;
-[e,~]=evaluate_IWOMH(XTrain,LTrain,XQuery,LQuery,Vector,OURparam);
+[e,~]=evaluate_OMHIW(XTrain,LTrain,XQuery,LQuery,Vector,OURparam);
